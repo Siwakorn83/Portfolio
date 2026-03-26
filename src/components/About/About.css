@@ -1,6 +1,7 @@
 .about {
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 6em;
+  margin-bottom: 9em;
 }
 
 .about__name {
@@ -44,9 +45,9 @@
 }
 
 .about__picture {
-  width: 180px;
-  height: 180px;
-  border-radius: 70%;   /* round profile */
+  width: 280px;
+  height: 280px;
+  border-radius: 20%;   /* round profile */
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }

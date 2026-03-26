@@ -13,7 +13,7 @@ const ProjectContainer = ({ project }) => (
         : `${process.env.PUBLIC_URL}/images/${project.image}`
     }
     alt={`${project.name} screenshot`}
-    style={{ width: '100%', objectFit: 'cover' }}
+    style={{ width: '100%', height: '250px',objectFit: 'cover' }}
     />
     )}
 

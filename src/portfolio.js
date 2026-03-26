@@ -1,21 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'http://localhost:3000/cleanfolio',
+  title: 'Siwakorn Pooparkdee',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  name: 'Siwakorn',
+  role: 'Front End Developer',
+  picture: 'my_face.png',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'My name is Siwakorn Pooparkdee. I am an IT student at Kasetsart University, Kamphaeng Saen Campus.',
+  resume: 'https://drive.google.com/file/d/19dLq3wcD7aNPtyoZLMjNF4G3Zz4q1oDi/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    github: 'https://github.com/Siwakorn83'
   },
 }
 
@@ -23,30 +22,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Portfolio Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A personal portfolio project developed to present my web development projects, technical skills.',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Siwakorn83',
     image: 'cleanfolio.png',
   },
   {
-    name: 'Project 2',
+    name: 'Feeder App Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'A group IoT feeder project developed to automate feeding processes and provide real-time monitoring via a web application.',
+    stack: ['Flutter', 'Dart', 'Node.js'],
+    sourceCode: 'https://github.com/phattaradanaikru/app_for_iot_feeder',
+    image: 'iot.png',
   },
   {
-    name: 'Project 3',
+    name: 'Vandermachine',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Vandermachine is a Flutter app simulating a vending machine, allowing users to browse and select products easily.',
+    stack: ['C++', 'Flutter', 'Dart'],
+    sourceCode: 'https://github.com/Siwakorn83/vendermachine.git',
+    image: 'cha.png',
   },
 ]
 
@@ -58,18 +55,23 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
   'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Flutter',
+  'Dart',
+  'Node.js',
+  'Java',
+  'Github',
+  'Docker',
+  'Spring Boot',
+  'Figma',
+  'Vs Code',
+  'Angular'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ankpao06160@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
